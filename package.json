@@ -1,0 +1,14 @@
+{
+  "name": "ksjflskdjfdsfjsdlj",
+  "version": "1.0.0",
+  "description": "Api Calling in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass main.scss Css/style.css -w"
+  },
+  "author": "Naresh",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

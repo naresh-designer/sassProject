@@ -1,0 +1,40 @@
+h1 {
+  margin: 30px 0; }
+
+.items {
+  background-color: #f1f1f1;
+  padding: 30px; }
+
+.items img {
+  width: 100%;
+  height: 200px; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  font-weight: normal; }
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px; }
+
+.wrapper {
+  max-width: calc(1200px - 40px);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.grid {
+  display: grid;
+  gap: 20px; }
+
+.grid_three {
+  grid-template-columns: repeat(3, 1fr); }
+
+.show {
+  color: green;
+  font-size: 300px; }
